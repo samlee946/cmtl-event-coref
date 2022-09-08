@@ -1,0 +1,5 @@
+PER
+ORG
+FAC
+LOC
+GPE

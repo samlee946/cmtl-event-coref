@@ -1,0 +1,13 @@
+PER
+ORG
+FAC
+LOC
+GPE
+target
+instrument
+money
+artifact
+crime
+thing
+time
+position

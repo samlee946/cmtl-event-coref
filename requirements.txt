@@ -1,0 +1,9 @@
+corenlp_xml_reader==0.1.3
+ipdb==0.13.9
+munkres==1.1.4
+numpy==1.22.3
+pyhocon==0.3.57
+scipy==1.8.1
+six==1.16.0
+spacy==3.4.1
+torch==1.11.0
