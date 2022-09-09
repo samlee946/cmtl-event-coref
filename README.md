@@ -1,6 +1,6 @@
 # Constrained Multi-Task Learning for Event Coreference Resolution
 
-This is the GitHub repository for Jing Lu's code used in her NAACL'21 paper Constrained Multi-Task Learning for Event Coreference Resolution. I do not own anything in this repository. If you use this code, please consider citing her paper:
+This is the GitHub repository for Jing Lu's code used in her NAACL'21 paper *Constrained Multi-Task Learning for Event Coreference Resolution*. I do not own anything in this repository. If you use this code, please consider citing her paper:
 ```
 @inproceedings{lu-ng-2021-constrained,
     title = "Constrained Multi-Task Learning for Event Coreference Resolution",
@@ -36,10 +36,10 @@ You might encounter the following error, depending on your g++ version.
 ```
 tensorflow.python.framework.errors_impl.NotFoundError: ./coref_kernels.so: undefined symbol: _ZN10tensorflow12OpDefBuilder4AttrESs
 ```
-You might try setting `-D_GLIBCXX_USE_CXX11_ABI=1`.
+You might try setting `-D_GLIBCXX_USE_CXX11_ABI=1` to avoid this error.
 
-3. Data setup
-   ALl data paths need to be set in experiments.conf
+3. Data setup  
+   All data paths need to be set in experiments.conf
    * training set:
      * train_path
    * test set:
@@ -54,7 +54,7 @@ You might try setting `-D_GLIBCXX_USE_CXX11_ABI=1`.
      * offset_name_dev: similar to the test set
    
    File structure:
-   * train_path/test_path/eval_path
+   * train_path/test_path/eval_path  
     Each line contains a json document:
      * doc_key: a string containing the key of the document
      * gold_clusters: a list of clusters, where each cluster is a list of event mentions, where each event mentions is a triplet of (event_start, event_end, event_type)
